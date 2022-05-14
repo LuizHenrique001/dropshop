@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --cor1: #13293d;
+    --cor2: rgb(0, 204, 255);
+}
+
+body {
+    background-image: url('../images/slide3.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Parte Inicial */
+
+.principal {
+    width: 100%;
+    height: 650px;
+    background-image: linear-gradient(to left, var(--cor1), #3a77b1);
+}
+
+.nome_do_site {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: var(--cor2);
+    padding: 40px;
+    font-size: 60px;
+
+    text-align: center;
+    background-color: black;
+}
+
+.info_do_site {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 40px;
+    line-height: 39px; 
+    font-size: 4vh;
+}
+
+/* Blocos */
+
+.bloco1 {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    color: white;
+}
+
+.informacao_do_bloco1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 40px;
+    font-size: 9vh;
+    line-height: 80px;
+}
+
+.btn_contato {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btn_contato a {
+    color: white;
+    padding: 8px 19px;
+    border-radius: 15px;
+    border: 1px solid white;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.btn_contato a:hover {
+    border: 1px solid rgb(0, 0, 0);
+    color: black;
+    background-color: white;
+}
+
+.bloco2 {
+    width: 100%;
+    height: 400px;
+    background-color: var(--cor1);
+    color: var(--cor2);
+}
+
+.informacao_do_bloco2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 40px;
+    font-size: 9vh;
+    line-height: 80px;
+    text-align: end;
+}
+
+.bloco3 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.bloco3 > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold
+    ;
+    padding: 40px;
+}
+
+.bloco3 > ul {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    font-size: 25px;
+    line-height: 39px;
+    margin-left: 30px;
+}
+
+/* Rodape do Site */
+
+.rodape {
+    width: 100%;
+    height: 380px;
+    /*background-color: rgba(147, 150, 150, 0.378);*/
+    background-color: rgba(0, 0, 0, 0.635);
+}
+
+hr {
+    margin-top: 30px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.contato_footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 50px;
+}
+
+.divulgacao_site {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    margin-top: 90px;
+}
+
+.divulgacao_site a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.divulgacao_site a:hover {
+    text-decoration: underline;
+}
+
+.criado_por_luiz {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.criado_por_luiz a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.criado_por_luiz a:hover {
+    text-decoration: underline;
+}
