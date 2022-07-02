@@ -184,3 +184,15 @@ img {
     height: 40px;
     padding: 10px 0px 15px 50px;
 }
+
+/* Loja */
+
+.btn_loja {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.btn_loja a {
+    color: white;
+    text-decoration: none;
+}
