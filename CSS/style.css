@@ -46,8 +46,8 @@
 }
 
 .bloco_info_1 {
-    background-color: black;
-    padding: 50px;
+    background-image: linear-gradient(to right, black, rgb(37, 37, 37));
+    padding: 100px;
 }
 
 .info_dos_produtos {
