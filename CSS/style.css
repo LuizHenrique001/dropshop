@@ -12,6 +12,10 @@
 :root {
     --cor1: #13293d;
     --cor2: rgb(0, 204, 255);
+    --cor3: #1e1f29;
+    --cor4: #45b8ed;
+    --cor5: #f3f3f3;
+    --cor6: #6092ac;
 }
 
 /* Parte Inicial */
@@ -22,6 +26,10 @@
     background-image: linear-gradient(to left, var(--cor1), #3a77b1);
 }
 
+.header__home {
+    background-color: #2e0f51;
+}
+
 .nome_do_site {
     font-family: 'Koulen', sans-serif;
     /*color: var(--cor2);*/
@@ -29,25 +37,11 @@
     padding: 40px;
     font-size: 60px;
     text-align: center;
-    background-color: #041628;
-}
-
-.bloco_info_2 {
-    background-color: #3a77b1;
-    height: 400px;
-}
-
-.info_do_site {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    padding: 40px;
-    line-height: 39px; 
-    font-size: 4vh;
 }
 
 .bloco_info_1 {
     background-image: linear-gradient(to right, black, rgb(37, 37, 37));
-    padding: 100px;
+    padding: 70px 20px;
 }
 
 .info_dos_produtos {
@@ -56,6 +50,20 @@
     font-size: 39px;
     line-height: 50px;
     color: #3a77b1;
+}
+
+.bloco_info_2 {
+    background-color: #3a77b1;
+    height: 400px;
+    width: 100%;
+}
+
+.info_do_site {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 40px;
+    line-height: 39px; 
+    font-size: 4vh;
 }
 
 /* Blocos */
@@ -82,7 +90,7 @@
     font-weight: bold;
     font-size: 23px;
     text-align: center;
-    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .btn_contato a {
@@ -213,7 +221,6 @@ img {
     font-weight: bold;
     font-size: 18px;
     text-align: center;
-    background-color: #041628;
     padding: 18px;
 }
 
