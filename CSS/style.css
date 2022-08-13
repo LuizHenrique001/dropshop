@@ -286,7 +286,7 @@ img {
 
 .container2 {
     width: 100%;
-    height: 500px;
+    height: 100%;
     background-color: rgb(0, 0, 0);
 }
 
@@ -304,3 +304,23 @@ img {
     line-height: 20px;
 }
 
+.titulo_esports {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #438acc;
+    text-align: center;
+    padding: 10px;
+    font-size: 34px;
+}
+
+.blusa-esports {
+    display: inline-flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.blusa-esports img {
+    height: 300px;
+    width: 300px;
+}
