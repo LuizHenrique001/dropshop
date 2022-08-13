@@ -202,7 +202,7 @@ img {
 
 .btn_footer {
     font-family: 'Montserrat', sans-serif;
-    padding: 30px 30px 40px 40px;
+    padding: 30px 30px 45px 40px;
 }
 
 .btn_footer a {
@@ -314,13 +314,14 @@ img {
 }
 
 .blusa-esports {
-    display: inline-flex;
-    margin: auto;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(to right, black, rgb(11, 17, 31));
 }
 
 .blusa-esports img {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
 }
