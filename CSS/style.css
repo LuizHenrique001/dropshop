@@ -241,7 +241,7 @@ img {
 .container1 {
     display: table;
     margin: auto;
-    height: 400px;
+    height: 250px;
     width: 100%;
 }
 
@@ -318,10 +318,17 @@ img {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to right, black, rgb(11, 17, 31));
+    background-image: linear-gradient(to right, black, rgb(27, 7, 47));
 }
 
 .blusa-esports img {
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
+    padding-right: 25px;
+}
+
+/* Logos */
+
+.logos-design {
+    display
 }
