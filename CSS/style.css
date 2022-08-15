@@ -16,6 +16,7 @@
     --cor4: #45b8ed;
     --cor5: #f3f3f3;
     --cor6: #6092ac;
+    --cor7: rgb(110, 0, 195);
 }
 
 /* Parte Inicial */
@@ -27,34 +28,42 @@
 }
 
 .header__home {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
     background-color: black;
+    width: 100%;
 }
 
 .nome_do_site {
     font-family: 'Koulen', sans-serif;
     /*color: var(--cor2);*/
-    color: white;
-    padding: 40px;
-    font-size: 60px;
-    text-align: center;
+    color: rgb(161, 37, 255);
+    padding: 10px;
+    font-size: 34px;
 }
 
 .bloco_info_1 {
-    background-image: linear-gradient(to right, black, rgb(37, 37, 37));
-    padding: 70px 20px;
+    width: 100%;
+    height: 500px;
+    background-image: url('../images/pexels-karolina-grabowska-7679645.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .info_dos_produtos {
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 39px;
-    line-height: 50px;
+    font-size: 19px;
+    line-height: 30px;
     color: #3a77b1;
+    padding: 10px 0px 10px 50px;
 }
 
 .bloco_info_2 {
     background-color: #3a77b1;
-    height: 400px;
+    height: 300px;
     width: 100%;
 }
 
@@ -64,6 +73,36 @@
     padding: 40px;
     line-height: 39px; 
     font-size: 26px;
+}
+
+.btn_loja_main {
+    font-family: 'MontSerrat', sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    padding: 10px 0px 0px 50px;
+}
+
+.btn_loja_main a {
+    color: white;
+    text-decoration: none;
+    background-color: var(--cor7);
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn_loja_main a:hover {
+    background-color: rgb(25, 13, 33);
+}
+
+.nome_site_main {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: var(--cor7);
+    font-size: 50px;
+    padding: 10px 0px 0px 50px;
+    width: 100%;
+    padding-top: 80px;
 }
 
 /* Blocos */
@@ -220,22 +259,21 @@ img {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 18px;
-    text-align: center;
-    padding: 18px;
+    margin-left: auto;
+    padding: 10px;
 }
 
 .btn_loja a {
-    background-color: rgb(43, 109, 201);
     color: white;
     text-decoration: none;
-    padding: 9px 25px;
-    border-radius: 8px;
+    padding: 10px;
+    border-radius: 5px;
     transition: .3s ease-in-out;
+    margin: 10px 10px 10px 0px;
 }
 
 .btn_loja a:hover {
-    background-color: rgb(31, 76, 140);
-    padding: 9px 35px;
+    background-color: rgb(110, 0, 195);
 }
 
 .container1 {
@@ -252,83 +290,3 @@ img {
     text-align: center;
 }
 
-.bloco_seguidores {
-    margin: auto;
-    margin-top: 20px;
-    height: 100px;
-    width: 280px;
-    border-radius: 15px;
-    background-image: linear-gradient(to right, black, rgb(48, 48, 48));
-}
-
-.btn_comprar_seguidores {
-    margin: 11px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold
-}
-
-.btn_comprar_seguidores a {
-    color: white;
-    text-decoration: none;
-    background-color: rgb(22, 92, 245);
-    border-radius: 10px;
-    padding: 10px;
-    transition: .3s;
-}
-
-.btn_comprar_seguidores a:hover {
-    border-radius: 0;
-    background-color: #1e405f;
-}
-
-/* container 2 */
-
-.container2 {
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0, 0, 0);
-}
-
-.titulo_design {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    color: #438acc;
-    padding: 20px;
-}
-
-.texto__design {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    padding: 20px;
-    line-height: 20px;
-}
-
-.titulo_esports {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    color: #438acc;
-    text-align: center;
-    padding: 10px;
-    font-size: 34px;
-}
-
-.blusa-esports {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(to right, black, rgb(27, 7, 47));
-}
-
-.blusa-esports img {
-    height: 300px;
-    width: 300px;
-    padding-right: 25px;
-}
-
-/* Logos */
-
-.logos-design {
-    display
-}
