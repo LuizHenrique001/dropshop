@@ -38,15 +38,9 @@
 }
 
 .header__home img {
-    width: 65px;
-    height: 65px;
-}
-
-.nome_do_site {
-    font-family: 'Koulen', sans-serif;
-    color: var(--cor1);
-    padding: 10px;
-    font-size: 22px;
+    width: 58px;
+    height: 58px;
+    padding: 0px 0px 0px 20px; 
 }
 
 .bloco_info_1 {
@@ -226,7 +220,7 @@ hr {
     text-decoration: underline;
 }
 
-img {
+.imagem-redes-sociais {
     width: 40px;
     height: 40px;
     padding: 10px 0px 15px 50px;
@@ -251,6 +245,7 @@ img {
     padding: 10px;
     margin: 6px;
     border-radius: 5px 10px;
+    transition: .3s;
 }
 
 /* Loja */
